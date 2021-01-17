@@ -1,0 +1,402 @@
+/*import fonts.css from fronts folder*/
+@import url("./fonts.css");
+
+/*import css variables*/
+@import url("./partials/_variables.css");
+
+/*  import global styling */
+@import url("./partials/_global.css");
+
+.header_area .main-menu .navbar .navbar-brand {
+    padding: 0 1rem 0 4rem;
+}
+
+.header_area .main-menu .names {
+    color: blue;
+    text-shadow: 2px 12px 18px rgba(0, 0, 0, 0.3);
+    font-size: 2rem;
+}
+
+.header_area .main-menu .navbar {
+    padding: 0.5rem 10rem;
+}
+
+.my_nav {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+    background-color: rgb(255 255 255 / 87%);
+    backdrop-filter: blur(10px);
+}
+
+.header_area .main-menu .nav-item .nav-link {
+    font: normal 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.5rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Banner Area */
+
+.site-main .site-banner {
+    background: url(../img/banner/home-banner1.png) no-repeat 0% 50%;
+}
+
+.site-main .site-banner .site-title h3 {
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after {
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1 {
+    font-size: 4rem;
+}
+
+.site-main .site-banner .site-title h4 {
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image>img {
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+/* End Banner Area */
+.site-main .about-area {
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2>span {
+    display: block;
+    font: normal bold 49px/60px var(--roboto);
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph>p {
+    padding: 0.4rem 0;
+}
+
+.site-main .online-courses h2 {
+    display: block;
+    font: normal bold 49px/60px var(--roboto);
+    letter-spacing: 17px;
+}
+
+.online-courses {
+    background-color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.home-body-content .my_card {
+    margin-bottom: 25px;
+    transition-duration: 0.4s;
+}
+
+.my_card:hover {
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+    transition-duration: 0.4s;
+}
+
+.my_card h3 {
+    font-size: 1.2em;
+}
+
+.site-main .home-body-content .row .col-lg-3>.my_card:hover {
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.site-main .home-body-content .row .col-lg-3 .my_card {
+    margin-left: 1rem;
+}
+
+.site-main .services-area {
+    padding: 7rem 2rem;
+}
+
+.site-main .services-area .services-title {
+    padding: 0 14rem;
+}
+
+.site-main .services-area .services-title h1 {
+    font-size: 35px;
+}
+
+.site-main>.services-area .services {
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem 0.5rem;
+    transition: box-shadow 0.7s ease;
+}
+
+.site-main>.services-area .services:hover {
+    box-shadow: var(--box-shadow);
+}
+
+/*Project area*/
+.site-main .project-area {
+    padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button {
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button+button {
+    padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project>.title h4 {
+    font: normal 700 25px/12px var(--roboto);
+}
+
+.site-main .project-area .grid .our-project .img a:hover img {
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+/*subscribe*/
+.site-main .subscribe-us-area .subscribe {
+    background: url(../img/subscribe-bg.png) no-repeat;
+    padding: 10rem 0;
+    margin: 3rem auto;
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title h4 {
+    font: normal 700 30px/ 30px var(--roboto);
+    color: whitesmoke;
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title p {
+    color: whitesmoke;
+    padding: 1rem 4rem;
+}
+
+footer.footer-area {
+    padding: 5rem 0;
+    background: url(../img/footer-bg.png) no-repeat;
+}
+
+footer.footer-area .social h5 {
+    font: normal 500 23px/ 30px var(--roboto);
+}
+
+footer.footer-area .social a>i {
+    font-size: 22px;
+    padding: 2rem;
+}
+
+footer.footer-area .social a:hover>i {
+    color: var(--primary-color);
+}
+
+#review_slider_content li .card {
+    text-align: center;
+}
+
+
+
+#review_slider_content li .card .card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#review_slider_content li .card .star {
+    color: orange;
+    font-size: 14px;
+}
+
+#review_slider_content li .card .card-text {
+    font-size: 14px;
+}
+
+
+.site-main .reviews-slider,
+.page-content {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.site-main .review-text-widget {
+    text-align: center;
+}
+
+
+.site-main .review-text-widget h2 {
+    font-size: 1.3em;
+}
+
+.site-main .review-text-widget p {
+    font-size: 14px;
+}
+
+
+.site-main .review-text-widget {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+
+.site-main .reviews-slider {
+    background-color: #ececec;
+}
+
+.custom_nav {
+    font-size: small;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.custom_nav ul.dropdown-menu {
+    font-size: small;
+}
+
+.custom-divider {
+    height: 5px;
+    background: rgb(255, 145, 0);
+    background: linear-gradient(90deg, rgba(255, 145, 0, 1) 0%, rgba(9, 9, 121, 1) 15%, rgba(153, 7, 128, 1) 39%, rgba(5, 107, 186, 1) 59%, rgba(26, 221, 3, 1) 79%, rgba(0, 212, 255, 1) 100%);
+}
+
+.main-banner {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-image: url(img/Banner.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.feature-holder {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+section.features {
+    padding-top: 35px;
+    padding-bottom: 25px;
+    background-color: whitesmoke;
+}
+
+.feature-holder h3 {
+    font-size: 1.2em;
+}
+
+.feature-holder p {
+    font-size: 14px;
+}
+
+section.online-courses,
+.classroom-training,
+.reviews-slider,
+.page-content {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.online-courses-text-widget,
+.classroom-courses-text-widget,
+.review-text-widget {
+    text-align: center;
+}
+
+.online-courses-text-widget h2,
+.classroom-courses-text-widget h2,
+.review-text-widget h2 {
+    font-size: 1.3em;
+}
+
+.online-courses-text-widget p,
+.classroom-courses-text-widget p,
+.review-text-widget p {
+    font-size: 14px;
+}
+
+.online-course-card,
+.review-text-widget {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.online-course-card .card-title {
+    font-size: 1em;
+    line-height: 20px;
+}
+
+.card.online-course-card .card-text {
+    font-size: 14px;
+}
+
+.classroom-training,
+.page-content {
+    background-color: whitesmoke;
+}
+
+.reviews-slider {
+    background-color: #ececec;
+}
+
+.sign-up-form-sidebar .card-title {
+    font-size: 1.2em;
+}
+
+.sign-up-form-sidebar .card-text {
+    font-size: 14px;
+}
+
+.course-list-item {
+    font-size: small;
+    padding-top: 20px;
+    color: black;
+}
+
+.course-list-item h5 {
+    font-size: 1.2em;
+}
+
+#review_slider_content li .card {
+    text-align: center;
+}
+
+#review_slider_content li .card img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+#review_slider_content li .card .card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#review_slider_content li .card .star {
+    color: orange;
+    font-size: 14px;
+}
+
+#review_slider_content li .card .card-text {
+    font-size: 14px;
+}
